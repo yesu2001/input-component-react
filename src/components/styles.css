@@ -1,0 +1,85 @@
+
+li {
+  list-style: none;
+}
+
+
+
+.Navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  flex: 0.2;
+  padding: 50px 0 0 50px;
+}
+
+.Navbar span {
+  color: #F7542E;
+}
+
+.Navbar ul{
+  margin-top: 90px;
+}
+
+.Navbar li {
+  color: #9E9E9E;
+  padding: 15px 0;
+}
+
+.Navbar li:hover {
+  cursor: pointer;
+  color: #090F31;
+  font-weight: bold;
+}
+
+.active {
+  color: #090F31 !important;
+  font-weight: bold;
+}
+
+
+.MainContent {
+  flex: 0.8;
+  padding-top: 50px;
+  margin-left: 250px;
+  margin-bottom: 50px;
+}
+
+
+.MainContent h2 {
+  color: #4F4F4F;
+  margin-bottom: 20px;
+}
+
+.Input {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 20px;
+}
+
+label {
+  margin: 5px 0;
+}
+
+input {
+  outline: none;
+  width: 200px;
+  height: 56px;
+  border: 1px solid #828282;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+.MainContent > div {
+  display: flex;
+}
+
+.Input span {
+  color: #828282;
+  font-size: 10px;
+}
+
+pre {
+  margin-bottom: 10px;
+}
+
